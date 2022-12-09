@@ -55,12 +55,12 @@ spec:
         max: 500
       interval: 30s
     # optional metrics analysis (prometheus)
-    #- name: "podinfo-prometheus"
-    #  templateRef:
-    #    name: podinfo-prometheus
-    #  thresholdRange:
-    #    max: 1
-    #  interval: 1m
+    - name: "podinfo-prometheus"
+      templateRef:
+        name: podinfo-prometheus
+      thresholdRange:
+        max: 1
+      interval: 1m
     webhooks:
       - name: acceptance-test
         type: pre-rollout
