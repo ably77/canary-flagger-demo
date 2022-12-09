@@ -17,7 +17,7 @@ spec:
   source:
     path: base/active/
     repoURL: https://github.com/ably77/canary-flagger-demo/
-    targetRevision: HEAD
+    targetRevision: oss
   syncPolicy:
     automated:
       prune: true

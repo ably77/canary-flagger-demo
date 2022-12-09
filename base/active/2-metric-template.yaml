@@ -6,7 +6,7 @@ metadata:
 spec:
   provider:
     type: prometheus
-    address: http://glooe-prometheus-server.gloo-system:80
+    address: http://flagger-prometheus.gloo-system:9090
   query: |
     sum(
         rate(
