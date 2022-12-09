@@ -10,7 +10,8 @@ spec:
   #    namespace: gloo-system
   virtualHost:
     domains:
-      - 'podinfo-local.glootest.com'
+      #- 'podinfo-local.glootest.com'
+      - '*'
     routes:
       - matchers:
          - prefix: /

@@ -74,4 +74,5 @@ spec:
         timeout: 5s
         metadata:
           type: cmd
-          cmd: "hey -z 2m -q 5 -c 2 -host podinfo-local.glootest.com http://gateway-proxy.gloo-system.svc.cluster.local/"
+          #cmd: "hey -z 2m -q 5 -c 2 -host podinfo-local.glootest.com http://gateway-proxy.gloo-system.svc.cluster.local/"
+          cmd: "hey -z 2m -q 5 -c 2 http://gateway-proxy.gloo-system.svc.cluster.local/"
