@@ -22,7 +22,7 @@ podinfo-primary-7db76b46bb-t2lqk      1/1     Running   0          119s
 ## Progressive Delivery
 In this example we are going to promote to podinfo v6.0.1 which is part of the dev overlay
 ```
-kubectl apply -f https://raw.githubusercontent.com/ably77/canary-flagger-demo/main/base-overlay-aoa.yaml
+kubectl apply -f https://raw.githubusercontent.com/ably77/canary-flagger-demo/main/dev-overlay-aoa.yaml
 ```
 
 ## Watch flagger logs
