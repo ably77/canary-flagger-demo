@@ -1,8 +1,11 @@
 # argocd + gloo edge + flagger canary demo
 
 ## Prerequisites
+- ArgoCD installed on a Kubernetes cluster
 - Gloo Edge installed on a Kubernetes cluster
 - Flagger installed on a Kubernetes cluster
+
+For more detail on installing ArgoCD, refer to the instructions [here](https://github.com/solo-io/gitops-library/tree/main/argocd/)
 
 For more detail on installing Gloo Edge, refer to the ArgoCD or Helm deployments [here](https://github.com/solo-io/gitops-library/tree/main/gloo-edge/deploy)
 
