@@ -4,6 +4,10 @@
 - Gloo Edge installed on a Kubernetes cluster
 - Flagger installed on a Kubernetes cluster
 
+For more detail on installing Gloo Edge, refer to the ArgoCD or Helm deployments [here](https://github.com/solo-io/gitops-library/tree/main/gloo-edge/deploy)
+
+For more detail on installing Flagger, refer to the ArgoCD or Helm deployments [here](https://github.com/solo-io/gitops-library/tree/main/flagger/deploy)
+
 ## Usage
 If the prerequisites above are met, you can just deploy the base overlay argo app-of-app. This will deploy the podinfo application v6.0.0
 ```
