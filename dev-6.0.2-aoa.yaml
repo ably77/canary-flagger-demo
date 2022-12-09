@@ -15,7 +15,7 @@ spec:
   #  - flagger
   project: default
   source:
-    path: dev/active/
+    path: dev-6.0.2/active/
     repoURL: https://github.com/ably77/canary-flagger-demo/
     targetRevision: HEAD
   syncPolicy:

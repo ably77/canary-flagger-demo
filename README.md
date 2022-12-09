@@ -20,9 +20,9 @@ podinfo-primary-7db76b46bb-t2lqk      1/1     Running   0          119s
 ```
 
 ## Progressive Delivery
-In this example we are going to promote to podinfo v6.0.1 which is part of the dev overlay
+In this example we are going to promote to podinfo v6.0.1 which is part of the dev-6.0.1 overlay
 ```
-kubectl apply -f https://raw.githubusercontent.com/ably77/canary-flagger-demo/main/dev-overlay-aoa.yaml
+kubectl apply -f https://raw.githubusercontent.com/ably77/canary-flagger-demo/main/dev-6.0.1-aoa.yaml
 ```
 
 ## Watch flagger logs
@@ -59,4 +59,10 @@ Below is the output of a successful progressive delivery. Note that at the begin
 "HorizontalPodAutoscaler v2 podinfo-primary.test updated"
 "Routing all traffic to primary"
 "Promotion completed! Scaling down podinfo.test"
+```
+
+## Promote again
+(optional) you can also promote again to podinfo v6.0.2 which is part of the dev-6.0.2 overlay
+```
+kubectl apply -f https://raw.githubusercontent.com/ably77/canary-flagger-demo/main/dev-6.0.2-aoa.yaml
 ```
